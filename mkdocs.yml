@@ -44,4 +44,4 @@ markdown_extensions:
   
 # Navigation
 nav:
-  - Welcome: index.md
+  - Welcome: welcome.md
