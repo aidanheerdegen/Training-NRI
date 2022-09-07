@@ -1,0 +1,47 @@
+site_name: Training resources
+
+# Git repository
+repo_url: https://github.com/ACCESS-NRI/Training
+repo_name: Training resources
+# Material default to a "master" branch, need to change to "main"
+edit_uri: edit/main/docs/
+
+# Theme
+theme:
+  name: material
+  palette:
+    - scheme: light
+      primary: indigo
+      accent: lime
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  logo: assets/ACCESSLogoJustPlanet.png
+
+# Extensions
+markdown_extensions: 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+
+  
+# Navigation
+nav:
+  - Welcome: index.md
