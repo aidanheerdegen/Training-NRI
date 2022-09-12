@@ -28,7 +28,6 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
   logo: assets/ACCESSLogoJustPlanet.png
 
 # Extensions
@@ -45,3 +44,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Welcome: index.md
+  - How-tos:
+    - Git and GitHub: 
+      - Basics: HowTos/GitAndGitHub/basics.md
+      - GitHub setup: HowTos/GitAndGitHub/github_setup.md
