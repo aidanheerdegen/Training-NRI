@@ -45,3 +45,5 @@ markdown_extensions:
 # Navigation
 nav:
   - Welcome: index.md
+  - How-tos:
+    - Git and GitHub: HowTos/GitAndGitHub/git_and_github.md
