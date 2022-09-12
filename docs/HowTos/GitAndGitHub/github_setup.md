@@ -7,7 +7,7 @@ We recommend to [enable 2-factor authentication](https://docs.github.com/en/auth
 
 ## SSH authentification
 ACCESS users are used to SSH for connecting to NCI. We recommend setting up [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for pulling from and pushing to GitHub repositories. Remember to set a passphrase for your key, do not use passphrase-less keys.
-
+Use [SSH agent forwarding](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding) to securely forward ssh keys from your own machine to use them on NCI machines.
 ## Commit signature verification
 
 It is [trivially easy to impersonate another user](https://betterprogramming.pub/why-and-how-you-should-sign-all-your-git-commits-94435516edae) when committing to git. This does not lead to elevated privileges, but could be exploited in a social hack, causing commits to be accepted based on an assumption of identity.
