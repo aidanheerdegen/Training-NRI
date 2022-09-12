@@ -3,7 +3,7 @@ We present here our recommended setup for GitHub.
 
 ## Two-factor authentication
 
-We recommend to [enable 2-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication) on your GitHub account for highen security. 
+We recommend to [enable 2-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication) on your GitHub account for higher security. 
 
 ## SSH authentification
 ACCESS users are used to SSH for connecting to NCI. We recommend setting up [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for pulling from and pushing to GitHub repositories. Remember to set a passphrase for your key, do not use passphrase-less keys.
