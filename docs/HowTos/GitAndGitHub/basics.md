@@ -23,3 +23,13 @@ Despite its name, [this Quickstart guide](https://docs.github.com/en/get-started
 
 [Git cheatsheet for SVN users](https://www.git-tower.com/blog/git-for-subversion-users-cheat-sheet/)
 
+## Graphical clients and IDE
+
+Interacting with Git can be a lot easier through GUIs or Integrated Development Environment (IDE) rather than remembering a list of commands for the command-line.
+
+[VS Code](https://code.visualstudio.com/): the best Integrated Development Environment (IDE) tool currently. It includes full coding support for about all coding languages, including Fortran. It integrates with Git, GitHub, BitBucket and GitLab through various extensions.
+
+[SourceTree](https://www.sourcetreeapp.com/): A free powerful GUI for Git on Mac and Windows. 
+
+[Other GUIs](https://git-scm.com/downloads/guis): A list of GUIs for Git from the Git documentation.
+
