@@ -1,4 +1,4 @@
-# GitHub setup
+# GitHub Setup
 We present here our recommended setup for GitHub.
 
 ## Two-factor authentication
